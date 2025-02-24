@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 /* Fuentes de google fonts:
 <weight>: Use a value from 100 to 900
 <uniquifier>: Use a unique and descriptive class name
@@ -20,6 +22,7 @@
     "YTLC" 500;
 } */
 
+
 #body {
     /* background-image: url('./assets/IMAGEN-4.jpg');
     background-repeat: no-repeat;
@@ -27,16 +30,25 @@
     text-align: center;
     color: #ffffff;
     list-style: none;
-    background: linear-gradient(90deg, #25365f, #0c2836);
+    /* background: linear-gradient(90deg, #25365f, #0c2836); */
+    background-color: #031731;
     background-size: 100% 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#root {
+    /* width: 100vw; */
+    height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }
 
 
 
 
-
-
-/* barra navegacion */
+/*                                                                                      barra navegacion */
 header {
     text-align: end;
     display: flex;
@@ -44,25 +56,29 @@ header {
     justify-content: space-between;
     position: sticky;
     top: 0;
-    background: linear-gradient(90deg, #25365f, #0c2836);
+    /* background: linear-gradient(90deg, #25365f, #0c2836); */
+    background-color: #031731;
     background-size: 100% 100%;
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
+    padding: 20px 30px 15px 30px;
 }
 
 .ContainerLogo {
     display: flex;
-    align-items: end;
+    align-items: center;
     text-align: start;
 }
 
 .LogoText {
     font-weight: 300;
     font-family: "Montserrat", serif;
+    font-size: 20px;
+    margin-bottom: 0px;
 }
 
 #logo {
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
     margin-right: 10px;
 }
 
@@ -77,36 +93,50 @@ header {
     text-decoration: none;
     transition: all 0.3s linear;
     border-bottom: 1px solid transparent;
+    font-size: 20px;
+    font-family: "Nunito Sans", serif;
 }
 
 .linksNav:hover {
     border-bottom: 1px solid white;
 }
 
+/* #25365fec */
+/* #0c2836 */
+/* #031731 */
 
-
-
-/* Home */
-
+/*                                                                                      Home */
 #HomeContainer {
     display: inline-block;
-    justify-content: center;
+    background:
+        linear-gradient(rgba(3, 23, 49, 0.95), rgba(3, 23, 49, 0.95)),
+        /* Capa de color negro semi-transparente */
+        url('./assets/fondo-home.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    justify-items: center;
 }
 
 .Title {
-    font-family: "Montserrat", serif;
-    font-size: 70px;
+    font-size: 48px;
     font-weight: 800;
-    line-height: 117.02px;
     margin: 40px 0px 0px 0px;
+    border-bottom: 2px solid white;
+    line-height: 50px;
+    font-family: 'Montserrat', serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
 .Subtitle {
     font-weight: 300;
-    font-size: 35px;
+    font-size: 30px;
     font-family: "Nunito Sans", serif;
     line-height: 15px;
-    margin: 0px 0px 100px 0px;
+    margin: 20px 0px 100px 0px;
 }
 
 #spanBold {
@@ -117,16 +147,17 @@ header {
 
 
 
-/* HeroSection */
+/*                                                                                      HeroSection */
 
 #HeroSectionContainer {
     display: flex;
     width: 80vw;
+    justify-content: space-around;
 }
 
 #HeroTextContainer {
     display: block;
-    width: 60%;
+    width: 50%;
     padding-right: 20px;
 }
 
@@ -134,42 +165,184 @@ header {
     text-align: start;
     font-family: "Montserrat", serif;
     font-weight: 600;
-    font-size: 60px;
-    line-height: 103.62px;
+    font-size: 52px;
+    /* line-height: 103.62px; */
 }
 
 .HeroText {
     font-family: "Nunito Sans", serif;
-    font-weight: 300;
+    font-weight: 700;
     font-size: 20px;
     text-align: start;
 }
 
+.hero-pick {
+    border-radius: 50px;
+    width: 35%;
+    height: 700px;
+    box-shadow: 1px 1px 20px 10px rgb(3, 3, 3);
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background:
+        linear-gradient(rgba(3, 23, 49, 0.15), rgba(3, 23, 49, 0.15)),
+        url('./assets/imagen-hero-seccion.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 
+
+
+
+
+
+
+
+
+/*                                                                                      SERVICIO */
+
+.container-servicio {
+    background:
+        linear-gradient(rgb(24, 21, 51, 0.95), rgba(24, 21, 51, 0.9)),
+        url('./assets/fondo-servicios.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 150vh;
+    justify-items: center;
+    text-align: center;
+}
+
+.title-servicio {
+    padding-top: 50px;
+    color: transparent;
+    text-align: center;
+    width: 385px;
+    height: 117px;
+    font-family: 'Poppins', "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 110px;
+    margin: 0px;
+    -webkit-text-stroke: 2px white;
+}
+
+.subtitle-servicio {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+}
+
+.container-components-servicio {
+    display: grid;
+    /* 3 columnas iguales */
+    grid-template-columns: repeat(2, 1fr);
+    /* Espaciado entre elementos */
+    row-gap: 100px;
+    column-gap: 250px;
+    margin-top: 100px;
+}
+
+.container-info-servicio {
+    width: 550px;
+    background-color: #001026;
+    border-radius: 85px;
+    height: 335px;
+    align-content: center;
+    justify-items: center;
+}
+
+.titulo-info-servicio {
+    margin: 0px 0px 40px 0px;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    border-bottom: 1px solid white;
+}
+
+.container-texto-servicio {
+    text-align: start;
+
+}
+
+.info-servicio {
+    margin-bottom: 30px;
+    font-size: 16px;
+    font-family: "Nunito Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*                                                                                      CONTACTO */
 
 
 /* Formulario */
+.container-formulario {
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+}
 
 #containerForm {
-    background-color: #03021cc7;
-    border-radius: 20px;
-    width: 40%;
-    box-shadow: 1px 1px 10px rgb(131, 195, 255);
+    border-radius: 50px;
+    width: 30%;
+    height: 617px;
+    box-shadow: 1px 1px 20px 10px rgb(3, 3, 3);
     justify-content: center;
     display: flex;
+    align-items: center;
+
+
+    background:
+        linear-gradient(rgba(3, 23, 49, 0.7), rgba(3, 23, 49, 0.7)),
+        /* Capa de color negro semi-transparente */
+        url('');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 #Form {
-    height: 100%;
+    height: 80%;
     text-align: start;
     width: 60%;
+    align-content: center;
 }
 
 .TitleForm {
     font-weight: 800;
     font-size: 20px;
     font-family: "Montserrat", serif;
+    margin-top: 0px;
+    text-align: center;
 }
 
 label {
@@ -183,7 +356,13 @@ input {
     margin-bottom: 10px;
     box-sizing: border-box;
     width: 100%;
-    transition: all 0.3s linear;
+    transition: all 0.3s ease;
+    /* copilot */
+    border: 2px solid #555;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 16px;
 }
 
 input:hover {
@@ -193,31 +372,57 @@ input:hover {
 textarea {
     width: 100%;
     height: 20%;
-    transition: all 0.3s linear;
+    transition: all 0.3s ease;
+    /* copilot */
+    border: 2px solid #555;
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: #fff;
+    font-size: 16px;
 }
 
 textarea:hover {
     background-color: #ffffffb2;
 }
 
+input:focus,
+textarea:focus {
+    border-color: #0066cc;
+    /* Cambia el borde a azul al hacer foco */
+    outline: none;
+    /* Elimina el borde por defecto */
+    background-color: #333;
+    /* Mantiene el fondo oscuro al hacer foco */
+}
+
+
 #submit {
-    background-color: rgba(255, 255, 255, 0.842);
+    /* background-color: rgba(255, 255, 255, 0.842);
     color: rgb(0, 0, 0);
     border: none;
     padding: 15px;
     border-radius: 8px;
     cursor: pointer;
     width: 30%;
-    transition: .5s ease;
+    transition: .5s ease; */
+    padding: 12px 25px;
+    border: none;
+    background-color: #0066cc;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
 }
 
 #submit:hover {
-    background-color: rgba(30, 255, 0, 0.785);
+    background-color: #004c99;
 }
 
 .error {
     color: red;
-    font-size: 10px;
+    font-size: 12px;
 }
 
 
@@ -225,8 +430,7 @@ textarea:hover {
 
 
 
-
-/* PROYECTOS: */
+/*                                                                                      PROYECTOS: */
 .containerProyectos {}
 
 .ProjectCard {
@@ -245,11 +449,70 @@ textarea:hover {
 
 
 
-/* Footer */
-
+/*                                                                                      Footer */
+.footer a {
+    text-decoration: none;
+    /* Elimina el subrayado */
+    color: inherit;
+}
 
 .footer {
-    position: relative;
-    bottom: 1px;
+    background-color: #fff;
+    color: #000;
+    padding: 50px 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 100px;
+    font-family: "Montserrat", serif;
+}
+
+.footer button {
+    background-color: #00CEFF;
+    color: black;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 38px;
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 50px;
+    transition: all .3s ease;
+    font-family: "Montserrat", serif;
+}
+
+.footer button:hover {
+    background-color: #0090d2;
+}
+
+.footer-info {
+    text-align: left;
     margin-top: 50px;
+    align-self: flex-start;
+}
+
+.titulo-info {
+    font-family: "Montserrat", serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+}
+
+.text-info {
+    font-family: "Montserrat", serif;
+    font-weight: 400;
+    font-size: 16px;
 }

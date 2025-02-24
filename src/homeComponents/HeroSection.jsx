@@ -1,12 +1,12 @@
 import React from 'react'
-import { Formulario } from "./Formulario";
 import { HeroText } from './HeroText';
+import { HeroPick } from './HeroPick';
 
 export const HeroSection = () => {
     return (
         <div id='HeroSectionContainer'>
             <HeroText />
-            <Formulario />
+            <HeroPick />
         </div>
     )
 }
