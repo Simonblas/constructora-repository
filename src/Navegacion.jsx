@@ -5,10 +5,10 @@ import { Proyectos } from './Proyectos.jsx';
 import { Servicios } from "./Servicios.jsx";
 import { Contacto } from './Contacto.jsx';
 import { Home } from './Home.jsx';
-import { Proyecto1 } from './ProjectComponents/Proyecto1.jsx';
-import { Proyecto2 } from './ProjectComponents/Proyecto2.jsx';
-import { Proyecto3 } from './ProjectComponents/Proyecto3.jsx';
-import { Proyecto4 } from './ProjectComponents/Proyecto4.jsx';
+import { Proyecto1 } from './ProjectComponents/pages/Proyecto1.jsx';
+import { Proyecto2 } from './ProjectComponents/pages/Proyecto2.jsx';
+import { Proyecto3 } from './ProjectComponents/pages/Proyecto3.jsx';
+import { Proyecto4 } from './ProjectComponents/pages/Proyecto4.jsx';
 
 export const Navegacion = () => {
     return (

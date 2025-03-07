@@ -26,6 +26,7 @@ export const Formulario = () => {
 
   //creamos los hooks para el manejo de inputs
   const [nombre, setNombre] = useState('')
+  const [telefono, setTelefono] = useState('')
   const [correo, setCorreo] = useState('')
   const [asunto, setAsunto] = useState('')
   const [mensaje, setMensaje] = useState('')
@@ -40,6 +41,10 @@ export const Formulario = () => {
         <label htmlFor="nombre">Nombre y apellido:</label>
         <input type="text" value={nombre} onChange={(e) => setNombre(e.target.value)} id='nombre' name='nombre' minLength="3" required autoComplete='on' />
         <div className="error" id="errorNombre"></div>
+
+        <label htmlFor="telefono">Telefono:</label>
+        <input type="number" value={telefono} onChange={(e) => setTelefono(e.target.value)} id='telefono' name='telefono' minLength="8" required autoComplete='on' />
+        <div className="error" id="errorTelefono"></div>
 
         <label htmlFor="correo">Correo:</label>
         <input type="email" value={correo} onChange={(e) => setCorreo(e.target.value)} id='correo' name='correo' minLength="3" required autoComplete='on' />

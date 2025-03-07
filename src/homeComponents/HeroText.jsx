@@ -1,6 +1,8 @@
 import React from 'react'
 
+
 export const HeroText = () => {
+
   return (
     <div id='HeroTextContainer'>
       <h3 className='HeroTitle'>Construir con vos es nuestra mayor satisfacción.</h3>

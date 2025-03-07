@@ -4,9 +4,9 @@ import { HeroPick } from './HeroPick';
 
 export const HeroSection = () => {
     return (
-        <div id='HeroSectionContainer'>
+        <section id='HeroSectionContainer'>
             <HeroText />
             <HeroPick />
-        </div>
+        </section>
     )
 }
