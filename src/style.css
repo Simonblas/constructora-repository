@@ -471,7 +471,8 @@ header {
 
 /*                                                                            scroll tips */
 b {
-    color: #00ff00;
+    /* color: #00ff00; */
+    font-weight: 1000;
 }
 
 /* portadatips */
@@ -760,7 +761,7 @@ b {
 
 .container-servicio {
     background:
-        linear-gradient(rgba(3, 23, 49, 0.9), rgba(3, 23, 49, 0.90)),
+        linear-gradient(rgba(3, 23, 49, 0.96), rgba(3, 23, 49, 0.96)),
         url('./assets/fondo-servicios.jpeg');
     background-size: cover;
     background-position: center;
@@ -775,6 +776,7 @@ b {
 #titulo-servicios {
     text-align: center;
     width: auto;
+    margin-top: 20px;
 }
 
 
@@ -786,7 +788,7 @@ b {
 .container-info-hero-servicios {
     display: block;
     background-color: transparent;
-    width: 650px;
+    width: 730px;
     height: 220px;
     padding: 5px 30px;
     border: 5px solid #00CEFF;
@@ -821,19 +823,19 @@ b {
 }
 
 #container-servicios-1 {
-    top: 300px;
+    top: 350px;
 }
 
 #container-servicios-2 {
-    top: 420px;
+    top: 470px;
 }
 
 #container-servicios-3 {
-    top: 640px;
+    top: 690px;
 }
 
 #container-servicios-4 {
-    top: 760px;
+    top: 810px;
 }
 
 .container-p-servicios {
@@ -852,9 +854,9 @@ b {
 
 .title-servicio {
     padding-top: 50px;
-    color: transparent;
+    /* color: transparent; */
     text-align: center;
-    width: 385px;
+    width: 985px;
     height: 117px;
     font-family: 'Poppins', "Montserrat", serif;
     font-optical-sizing: auto;
@@ -863,7 +865,8 @@ b {
     font-size: 96px;
     line-height: 110px;
     margin: 0px;
-    -webkit-text-stroke: 2px white;
+    margin-top: 80px;
+    /* -webkit-text-stroke: 2px white; */
 }
 
 .subtitle-servicio {
@@ -1105,6 +1108,14 @@ b {
     border: 5px solid #5E51B3;
 }
 
+iframe {
+    border-radius: 50px;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
 /* Formulario */
 
 #containerForm {
@@ -1240,15 +1251,21 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .container-redes img {
-    margin: 0px 15px;
-    width: 35px;
+    margin: 0px 20px;
+    width: 45px;
+    transition: all .3s ease;
+}
+
+.container-redes img:hover {
+transform: scale(1.2);
+cursor: pointer;
 }
 
 .linea-redes-izquierda {
     position: absolute;
     background-color: white;
     height: 1px;
-    width: 40%;
+    width: 42%;
     left: 0px;
     top: 50%;
 }
@@ -1257,7 +1274,7 @@ input[type="number"]::-webkit-outer-spin-button {
     position: absolute;
     background-color: white;
     height: 1px;
-    width: 40%;
+    width: 42%;
     right: 0px;
     top: 50%;
 }

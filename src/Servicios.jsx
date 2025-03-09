@@ -31,7 +31,7 @@ export const Servicios = () => {
 
             <HeroServicios />
 
-            <h1 className='title-servicio'>Luciano</h1>
+            <h1 className='title-servicio'>Luciano <span className='spanBold'>Scalcini</span></h1>
 
             <h2 className='subtitle-servicio'>Topógrafo, Ingeniero <br /> Analista de Datos y Proyector</h2>
             <div className='container-components-servicio'>

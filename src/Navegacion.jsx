@@ -9,6 +9,7 @@ import { Proyecto1 } from './ProjectComponents/pages/Proyecto1.jsx';
 import { Proyecto2 } from './ProjectComponents/pages/Proyecto2.jsx';
 import { Proyecto3 } from './ProjectComponents/pages/Proyecto3.jsx';
 import { Proyecto4 } from './ProjectComponents/pages/Proyecto4.jsx';
+import logo from "./assets/logo.png";
 
 export const Navegacion = () => {
     return (
@@ -16,7 +17,7 @@ export const Navegacion = () => {
 
             <header>
                 <div className='ContainerLogo'>
-                    <img id='logo' src="./src/assets/logo.png" alt="" />
+                    <img id='logo' src={logo} alt="" />
                     <p className='LogoText'>Scalcini <br /> Constructora</p>
                 </div>
                 <nav className='barraNav'>
