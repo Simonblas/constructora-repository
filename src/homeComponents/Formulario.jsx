@@ -22,8 +22,8 @@ export const Formulario = () => {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_ipirzwh', 'template_nt7xxhe', form.current, {
-      publicKey: '9thh4YyZG1-19ZwCm',
+    emailjs.sendForm('KEY1', 'KEY2', form.current, {
+      publicKey: 'KEY3',
     })
       .then(
         (result) => {
