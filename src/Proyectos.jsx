@@ -46,7 +46,7 @@ export const Proyectos = () => {
                     <SliderProyecto1 />
                     <SliderProyecto2 />
                     <SliderProyecto3 />
-                    <SliderProyecto4 />
+                    {/* <SliderProyecto4 /> */}
                 </Slider>
                 <button className='boton-slider boton-slider-derecha' id='boton-slider-proyecto-derecha' onClick={goToNext}><img src={flechaderecha} alt="" /></button>
 

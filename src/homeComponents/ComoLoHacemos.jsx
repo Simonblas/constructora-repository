@@ -2,7 +2,7 @@ import React from 'react'
 import imgcomohacemos from '../assets/imgcomohacemos.jpeg'
 import { ReactSlider } from './tipsComponents/reactSlider';
 
-export const ComoLoHacemos = React.forwardRef((props, ref) => {
+export const ComoLoHacemos = () => {
 
 
     return (
@@ -23,8 +23,8 @@ export const ComoLoHacemos = React.forwardRef((props, ref) => {
                         estándares de calidad.</p>
                     <div className='linea-como-hacemos'></div>
                 </div>
-                <ReactSlider ref={ref} />
+                <ReactSlider />
             </div>
         </section>
     )
-})
+}

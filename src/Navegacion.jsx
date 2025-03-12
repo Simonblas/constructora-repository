@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link, Route, Routes } from 'react-router';
+import { Link, Navigate, Route, Routes, useLocation } from 'react-router';
 import { Beneficios } from './Beneficios.jsx';
 import { Proyectos } from './Proyectos.jsx';
 import { Servicios } from "./Servicios.jsx";
@@ -12,6 +12,9 @@ import { Proyecto4 } from './ProjectComponents/pages/Proyecto4.jsx';
 import logo from "./assets/logo.png";
 
 export const Navegacion = () => {
+
+    const location = useLocation(); // Usamos useLocation para obtener la ruta actual
+
     return (
         <>
 
@@ -21,19 +24,19 @@ export const Navegacion = () => {
                     <p className='LogoText'>Scalcini <br /> Constructora</p>
                 </div>
                 <nav className='barraNav'>
-                    <Link to='/' className='linksNav'>
+                    <Link to='/' className={location.pathname === '/' ? "linksNav active" : "linksNav"}>
                         Inicio
                     </Link>
-                    <Link to='/servicios' className='linksNav'>
+                    <Link to='/servicios' className={location.pathname === '/servicios' ? "linksNav active" : "linksNav"}>
                         Servicios
                     </Link>
-                    <Link to='/beneficios' className='linksNav'>
+                    <Link to='/beneficios' className={location.pathname === '/beneficios' ? "linksNav active" : "linksNav"}>
                         Beneficios
                     </Link>
-                    <Link to='/proyectos' className='linksNav'>
+                    <Link to='/proyectos' className={location.pathname === '/proyectos' ? "linksNav active" : "linksNav"}>
                         Proyectos
                     </Link>
-                    <Link to='/contacto' className='linksNav'>
+                    <Link to='/contacto' className={location.pathname === '/contacto' ? "linksNav active" : "linksNav"}>
                         Contacto
                     </Link>
                 </nav>
@@ -45,6 +48,7 @@ export const Navegacion = () => {
                 <Route path='/proyectos' element={<Proyectos />} />
                 <Route path='/servicios' element={<Servicios />} />
                 <Route path='/contacto' element={<Contacto />} />
+                <Route path='/*' element={<Navigate to='/' />} />
                 {/* rutas hijas de proyectos */}
                 <Route path='/proyectos/proyecto1' element={<Proyecto1 />} />
                 <Route path='/proyectos/proyecto2' element={<Proyecto2 />} />

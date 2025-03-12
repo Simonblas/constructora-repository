@@ -41,7 +41,6 @@
 }
 
 #root {
-    /* width: 100vw; */
     height: 100%;
     margin: 0px;
     padding: 0px;
@@ -162,7 +161,6 @@ header {
     font-size: 70px;
     font-weight: 800;
     margin: 40px 0px 0px 0px;
-    border-bottom: 1px solid rgb(255, 255, 255);
     line-height: 50px;
     font-family: 'Montserrat', serif;
     font-optical-sizing: auto;
@@ -244,11 +242,10 @@ header {
     font-weight: 600;
     font-style: normal;
     transition: all .5s ease;
-    position: absolute;
-    bottom: 100px;
-    left: 250px;
     align-items: center;
     align-content: center;
+    z-index: 2;
+    margin-top: 100px;
 }
 
 .btn-home:hover {
@@ -277,6 +274,7 @@ header {
     width: 530px;
     height: 500px;
     border-radius: 100px;
+    box-shadow: 1px 1px 20px 10px rgb(3, 3, 3);
 }
 
 
@@ -339,6 +337,7 @@ header {
     width: 530px;
     height: 500px;
     border-radius: 100px;
+    box-shadow: 1px 1px 20px 10px rgb(3, 3, 3);
 }
 
 .container-que-hacemos-text {
@@ -413,6 +412,7 @@ header {
     width: 636px;
     height: 833px;
     border-radius: 80px;
+    box-shadow: 1px 1px 20px 10px rgb(3, 3, 3);
 }
 
 .container-section-info-como-hacemos {
@@ -461,11 +461,11 @@ header {
 }
 
 .linea-medio {
-    bottom: 0;
+    bottom: 500px;
     left: 55%;
     position: absolute;
     background-color: #5E51B3;
-    height: 1750px;
+    height: 1250px;
     width: 4px;
 }
 
@@ -653,7 +653,6 @@ b {
     position: relative;
     border: 3px solid #5E51B3;
     background-color: #031731;
-
 }
 
 .container-tips {
@@ -733,7 +732,8 @@ b {
 }
 
 .slick-dots {
-    bottom: 0px;
+    display: flex;
+    bottom: 5px;
 }
 
 /* .slick-dots	Contenedor de los dots de navegación.*/
@@ -764,19 +764,19 @@ b {
         linear-gradient(rgba(3, 23, 49, 0.96), rgba(3, 23, 49, 0.96)),
         url('./assets/fondo-servicios.jpeg');
     background-size: cover;
-    background-position: center;
+    background-position: top;
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
     justify-items: center;
     text-align: center;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
 }
 
 #titulo-servicios {
     text-align: center;
     width: auto;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 
@@ -804,6 +804,8 @@ b {
     font-size: 32px;
     text-align: center;
     color: #00CEFF;
+    margin-bottom: 0px;
+    margin-top: 40px;
 }
 
 .container-izquierda {
@@ -988,7 +990,6 @@ b {
     width: 600px;
     height: 70px;
     border-radius: 50px;
-    font-size: 16px;
     cursor: pointer;
     color: black;
     font-family: "Montserrat", serif;
@@ -1149,6 +1150,7 @@ label {
     display: block;
     margin-bottom: 5px;
     text-align: start;
+    font-family: "Montserrat", serif;
 }
 
 input {
@@ -1257,8 +1259,8 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .container-redes img:hover {
-transform: scale(1.2);
-cursor: pointer;
+    transform: scale(1.2);
+    cursor: pointer;
 }
 
 .linea-redes-izquierda {
@@ -1294,7 +1296,7 @@ cursor: pointer;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    padding-bottom: 200px;
+    padding-bottom: 100px;
     padding-top: 100px;
     justify-items: center;
 }
@@ -1352,6 +1354,10 @@ cursor: pointer;
     width: 350px;
 }
 
+.titulo-proyectos img {
+    margin-right: 10px;
+}
+
 .HeroPickProjects {
     border-radius: 80px;
     width: 412px;
@@ -1378,6 +1384,10 @@ cursor: pointer;
     align-content: center;
 }
 
+.slider-proyectos {
+    justify-items: center;
+}
+
 .slider-proyectos div {
     width: 1250px;
     height: 500px;
@@ -1385,7 +1395,6 @@ cursor: pointer;
 
 #boton-slider-proyecto-derecha {
     top: 45%;
-    right: -40px;
 }
 
 #boton-slider-proyecto-izquierda {
@@ -1395,12 +1404,45 @@ cursor: pointer;
 
 /* clases de los proyectos del slider */
 .container-proyecto {
-    background:
-        linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),
-        /* Capa de color negro semi-transparente */
-        url('./assets/imagen-hero-proyectos.jpeg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    text-align: center;
+    top: 100%;
+}
+
+#slider-proyecto-1 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+        /* Capa de color negro semi-transparente */
+        url('./assets/milagro.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    text-align: center;
+}
+
+#slider-proyecto-2 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+        /* Capa de color negro semi-transparente */
+        url('./assets/estudioarquitectura.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    flex-direction: column;
+    text-align: center;
+}
+
+#slider-proyecto-3 {
+    background:
+        linear-gradient(rgba(0, 0, 0, 0.80), rgba(0, 0, 0, 0.80)),
+        /* Capa de color negro semi-transparente */
+        url('./assets/frigorifico.jpg');
+    background-size: cover;
+    background-position: bottom;
     background-repeat: no-repeat;
     flex-direction: column;
     text-align: center;
@@ -1481,7 +1523,6 @@ cursor: pointer;
     text-decoration: none;
     /* Elimina el subrayado */
     color: inherit;
-    margin-left: 400px;
 }
 
 .footer a img {
@@ -1521,6 +1562,8 @@ cursor: pointer;
     gap: 8px;
     transition: all .3s ease;
     font-family: "Montserrat", serif;
+    position: absolute;
+    left: 40%;
 }
 
 .footer button:hover {
@@ -1577,4 +1620,9 @@ cursor: pointer;
         transform: translate(0, 0);
         clip-path: inset(0 75% 75% 0);
     }
+}
+
+/* para cuando los links esten activos */
+.active {
+    color: gray;
 }

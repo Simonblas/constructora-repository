@@ -1,0 +1,144 @@
+.container-proyecto2 {
+    background:
+        linear-gradient(rgba(3, 23, 49, 0.9), rgba(3, 23, 49, 0.9)),
+        /* Capa de color negro semi-transparente */
+        url('../../assets/fondoproyecto1.jpeg');
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.container-proyecto2 h2 {
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 50px;
+    text-align: center;
+    margin: 0px;
+    padding: 80px 0px;
+}
+
+/* container 1 */
+
+.container-1-proyecto-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.container-1-proyecto-2 img {
+    width: 600px;
+    height: 508px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.container-text-proyecto-2 {
+    width: 50%;
+}
+
+.container-text-proyecto-2 h3 {
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+}
+
+
+.texto1-proyecto2 {
+    font-family: "Nunito Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+    font-size: 28px;
+    text-align: start;
+}
+
+/* container 2 */
+.container-2-proyecto-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.container-2-proyecto-2 img {
+    width: 921px;
+    height: 538px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.container-text-2-proyecto-2 {
+    width: 600px;
+}
+
+.container-text-2-proyecto-2 h3 {
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 27px;
+    text-align: center;
+}
+
+.container-text-2-proyecto-2 p {
+    font-family: "Nunito Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+    font-size: 24px;
+    text-align: center;
+}
+
+/* container 3 */
+.container-3-proyecto-2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.container-text-3-proyecto-2 {
+    width: 920px;
+}
+
+.container-text-3-proyecto-2 h4 {
+    font-family: "Montserrat";
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 27px;
+    text-align: center;
+}
+
+.container-text-3-proyecto-2 ul {}
+
+.container-text-3-proyecto-2 li {
+    text-align: start;
+    font-family: "Nunito Sans", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100,
+        "YTLC" 500;
+    font-size: 23px;
+    padding-bottom: 40px;
+}
+
+.container-3-proyecto-2 img {
+    width: 600px;
+    height: 508px;
+    object-fit: cover;
+    border-radius: 20px;
+}

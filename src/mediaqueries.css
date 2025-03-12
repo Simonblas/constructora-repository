@@ -1,0 +1,679 @@
+/*                                                                              MEDIA QUERIES */
+@media (max-width: 1605px) {
+    #HomeContainer {
+        padding-bottom: 100px;
+    }
+
+    .btn-home {
+        margin-top: 60px;
+    }
+
+    .hacemos-img {
+        width: 205px;
+        height: 200px;
+        border-radius: 60px;
+    }
+
+    .abajo-derecha {
+        left: 48%;
+        width: 45%;
+    }
+
+    .linea-medio {
+        height: 1290px;
+    }
+
+    .linea-como-hacemos {
+        width: 85%;
+        left: 5%;
+    }
+
+    .abajo {
+        left: 5%;
+        width: 90%;
+    }
+
+    .container-que-hacemos-text {
+        width: 700px;
+    }
+
+    .container-deslizante {
+        width: 552px;
+        height: 381px;
+        border-radius: 70px;
+    }
+
+    .container-proyectos-components {
+        margin-right: 45px;
+    }
+
+    .slick-dots {
+        bottom: 10px;
+    }
+
+    /*          servicios */
+
+    .container-info-hero-servicios {
+        width: 630px;
+        height: 200px;
+    }
+
+}
+
+
+@media (max-width: 1366px) {
+
+    /* home hero */
+    header {
+        padding: 5px 0px 0px 10px;
+    }
+
+    .LogoText {
+        font-size: 14px;
+        margin-bottom: 0px;
+    }
+
+    #logo {
+        width: 65px;
+        height: 65px;
+    }
+
+    .barraNav {
+        padding: 5px;
+    }
+
+    .linksNav {
+        padding-bottom: 1px;
+        font-size: 18px;
+    }
+
+    #whatsappBoton {
+        bottom: 10px;
+        right: 20px;
+        width: 80px;
+        height: 80px;
+    }
+
+    #whatsappBoton img {
+        width: 80px;
+    }
+
+    .btn-home {
+        padding: 10px 35px;
+        font-size: 20px;
+    }
+
+    .Title {
+        font-size: 50px;
+        margin-top: 20px;
+    }
+
+    .Subtitle {
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    .HeroTitle {
+        font-size: 40px;
+        margin: 10px 0px 30px 0px;
+    }
+
+    .HeroText {
+        font-size: 15px;
+    }
+
+    .hero-pick {
+        height: 450px;
+        width: 350px;
+        margin-bottom: 80px;
+    }
+
+    /* quienes somos */
+
+    .container-quienes-somos {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+
+    .container-quienes-somos img {
+        width: 370px;
+        height: 350px;
+        border-radius: 80px;
+    }
+
+    .container-quienes-text {
+        width: 502px;
+        padding-top: 0px;
+    }
+
+    .quienes-title {
+        font-size: 45px;
+        margin: 0 0 30px 0;
+    }
+
+    .quienes-text {
+        font-size: 19px;
+    }
+
+    /* que hacemos */
+    .container-que-hacemos {
+        column-gap: 60px;
+        padding: 70px 0px;
+    }
+
+    .img-principal {
+        width: 370px;
+        height: 350px;
+        border-radius: 80px;
+    }
+
+    .container-que-hacemos-text {
+        width: 560px;
+        height: 426px;
+    }
+
+    .container-hijo-hacemos {
+        width: 160px;
+    }
+
+
+    .hacemos-title {
+        font-size: 45px;
+        margin-bottom: 50px;
+    }
+
+    .hacemos-img {
+        width: 175px;
+        height: 170px;
+        border-radius: 60px;
+    }
+
+    .hacemos-text {
+        font-size: 15px;
+    }
+
+    .abajo {
+        bottom: 40px;
+    }
+
+    .linea-medio {
+        height: 1000px;
+        bottom: 300px;
+    }
+
+    /* como lo hacemos */
+    .container-como-hacemos {
+        margin-top: 30px;
+        padding-bottom: 0px;
+    }
+
+    .img-como-hacemos {
+        width: 436px;
+        height: 633px;
+        border-radius: 50px;
+    }
+
+    .como-hacemos-title {
+        font-size: 45px;
+        margin-top: 0px;
+    }
+
+    .como-hacemos-text {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    /* slide */
+    .container-deslizante {
+        width: 452px;
+        height: 301px;
+        border-radius: 50px;
+        margin-top: 50px;
+        border: 3px solid #5E51B3;
+    }
+
+    .slick-list {
+        border-radius: 50px;
+    }
+
+    .slick-slide div {
+        width: 452px;
+        height: 301px;
+    }
+
+    .boton-slider img {
+        width: 20px;
+        height: 35px;
+    }
+
+    /* scroll tips */
+    .portada-text {
+        font-size: 36px;
+        margin: 0;
+    }
+
+    #numero-3 {
+        font-size: 90px;
+    }
+
+    /* tip1 */
+    .p1-tip1 {
+        font-size: 32px;
+    }
+
+    .p2-tip1 {
+        margin: 30px 0px 25px 200px;
+        font-size: 15px;
+    }
+
+    .p3-tip1 {
+        margin: 0px 10px;
+        font-size: 13px;
+        padding-bottom: 30px;
+        width: 365px;
+    }
+
+    /* tip2 */
+    .title-tip2 {
+        font-size: 32px;
+        width: 180px;
+    }
+
+    #div-1-tip2 {
+        height: 60px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+    #p1-tip2 {
+        width: 154px;
+        font-size: 14px;
+    }
+
+    #num-tip2 {
+        width: 40px;
+        font-size: 35px;
+    }
+
+    #div-2-tip2 {
+        margin-top: 15px;
+        margin-bottom: px;
+    }
+
+    #div-2-tip2 img {
+        width: 129px;
+        height: 97px;
+        border: 2px solid white;
+    }
+
+    #div-2-tip2 p {
+        width: 171px;
+        font-size: 13px;
+    }
+
+    /* tip 3 */
+    .p1-tip3 {
+        font-size: 35px;
+        height: 40px;
+        margin: 30px 0px 5px 0px;
+    }
+
+    .p2-tip3 {
+        font-size: 30px;
+        height: 107px;
+    }
+
+    .p3-tip3 {
+        font-size: 14px;
+        width: 393px;
+        height: 90px;
+    }
+
+
+
+    /* servicios */
+    .container-servicio {
+        padding-bottom: 100px;
+    }
+
+    #titulo-servicios {
+        margin-top: 0px;
+        padding-top: 10px;
+        font-size: 70px;
+    }
+
+    .container-hero-servicios {
+        height: 550px;
+    }
+
+    .container-info-hero-servicios {
+        width: 550px;
+        height: 160px;
+        padding: 5px 0px;
+        border: 3px solid #00CEFF;
+    }
+
+    .container-izquierda {
+        border-left: transparent;
+    }
+
+    .container-derecha {
+        border-right: transparent;
+    }
+
+    .container-info-hero-servicios h3 {
+        font-size: 24px;
+    }
+
+    #container-servicios-1 {
+        top: 210px;
+    }
+
+    #container-servicios-2 {
+        top: 320px;
+    }
+
+    #container-servicios-3 {
+        top: 460px;
+    }
+
+    #container-servicios-4 {
+        top: 570px;
+    }
+
+    .container-p-servicios {
+        font-size: 16px;
+        width: 300px;
+    }
+
+    .title-servicio {
+        padding-top: 0px;
+        width: 785px;
+        height: 80px;
+        font-size: 70px;
+        line-height: 110px;
+        margin: 0px;
+        margin-top: 80px;
+    }
+
+    .subtitle-servicio {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .container-components-servicio {
+        row-gap: 60px;
+        column-gap: 140px;
+        margin-top: 80px;
+    }
+
+    .container-info-servicio {
+        width: 480px;
+        border-radius: 65px;
+        height: 300px;
+    }
+
+    .titulo-info-servicio {
+        margin: 0px 0px 30px 0px;
+        font-size: 20px;
+    }
+
+    .info-servicio {
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+
+
+    /* beneficios */
+    .titulo-beneficios {
+        font-size: 54px;
+        margin: 0px 0px 0px 0px;
+    }
+
+    .beneficios-grid {
+        margin-top: 40px;
+    }
+
+    .container-info-beneficios {
+        width: 300px;
+        height: 200px;
+        padding: 30px;
+        border-radius: 40px;
+        border: 3px solid #5E51B3;
+    }
+
+    .titulo-info-beneficios {
+        font-size: 20px;
+    }
+
+    .info-beneficios {
+        font-size: 18px;
+    }
+
+    .boton-presupuesto {
+        margin-top: 70px;
+        margin-bottom: 0px;
+        width: 500px;
+        height: 55px;
+        border-radius: 50px;
+        font-size: 20px;
+    }
+
+    .boton-presupuesto img {
+        width: 40px;
+    }
+
+    .extra-beneficios {
+        margin-top: 30px;
+        margin-bottom: 100px;
+        height: 300px;
+    }
+
+    .extra-item h3 {
+        font-size: 22px;
+    }
+
+    .extra-item p {
+        font-size: 20px;
+        margin-top: 65px;
+        width: 80%;
+    }
+
+    #linea-horizontal-beneficios {
+        height: 3px;
+    }
+
+    #borde-vertical-medio {
+        border-left: 3px solid #5E51B3;
+        border-right: 3px solid #5E51B3;
+    }
+
+
+
+    /*           footer */
+    .footer a img {
+        width: 25px;
+    }
+
+    .footer {
+        padding: 0px 30px;
+    }
+
+    .footer h2 {
+        font-size: 30px;
+        margin-bottom: 70px;
+        margin-top: 70px;
+    }
+
+    .footer button {
+        padding: 15px 25px;
+        border-radius: 38px;
+        font-size: 22px;
+        left: 37%;
+    }
+
+    .footer-info {
+        margin-bottom: 20px;
+        margin-top: 30px;
+    }
+
+    .titulo-info {
+        font-size: 17px;
+    }
+
+    .text-info {
+        font-size: 14px;
+    }
+
+    /*          proyectos */
+
+    .container-proyectos {
+        padding-bottom: 100px;
+        padding-top: 40px;
+    }
+
+    .HeroProyects {
+        margin-bottom: 0px;
+    }
+
+    .texto-principal-proyectos {
+        font-size: 50px;
+    }
+
+    .texto-secundario-proyectos {
+        font-size: 30px;
+    }
+
+    .texto-terciario-proyectos {
+        font-size: 18px;
+        padding: 10px;
+        width: 302px;
+    }
+
+    .titulo-proyectos {
+        margin: 30px 0px 0px 0px;
+        font-size: 26px;
+        width: 300px;
+    }
+
+    .HeroPickProjects {
+        border-radius: 30px;
+        width: 342px;
+        height: 484px;
+    }
+
+    .container-proyectos-components {
+        width: 1200px;
+        height: 500px;
+        margin-top: 60px;
+        margin-right: 45px;
+    }
+
+    .slider-proyectos div {
+        width: 1250px;
+        height: 500px;
+    }
+
+
+
+    /*               contacto */
+
+    .container-contacto {
+        padding-top: 10px;
+    }
+
+    .container-contacto h1 {
+        font-size: 44px;
+        margin: 0px 0px 0px 60px;
+    }
+
+    .container-hero-contacto {
+        margin-bottom: 10px;
+    }
+
+    /* Mapa */
+    .container-mapa {
+        width: 520px;
+        height: 400px;
+        margin-top: 15px;
+        border-radius: 30px;
+        border: 4px solid #5E51B3;
+    }
+
+    iframe {
+        border-radius: 30px;
+    }
+
+    /* formulario */
+
+    #containerForm {
+        border-radius: 25px;
+        height: 350px;
+        width: 230px;
+        padding: 25px 50px 70px 50px;
+        border: 3px solid #5E51B3;
+    }
+
+    .TitleForm {
+        font-size: 17px;
+    }
+
+    label {
+        margin-bottom: 5px;
+        font-size: 14px;
+    }
+
+    input {
+        padding: 1px;
+        margin-bottom: 10px;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+
+    textarea {
+        height: 18%;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+
+    #submit {
+        padding: 8px 18px;
+        font-size: 14px;
+        border-radius: 6px;
+        margin-top: 10px;
+    }
+
+    .container-redes {
+        height: 90px;
+    }
+
+    .container-redes img {
+        margin: 0px 20px;
+        width: 40px;
+    }
+
+    .linea-redes-izquierda {
+        width: 40%;
+    }
+
+    .linea-redes-derecha {
+        width: 40%;
+    }
+
+}
+
+@media (max-width: 1280px) {
+    .linea-medio {
+        height: 1030px;
+    }
+}
+
+
+/* mobile */
+
+@media (max-width: 768px) {}
+
+@media (max-width: 600px) {}
+
+@media (max-width: 400px) {}
