@@ -4,6 +4,11 @@
         padding-bottom: 100px;
     }
 
+    #HeroSectionContainer {
+        width: 90vw;
+        justify-content: space-around;
+    }
+
     .btn-home {
         margin-top: 60px;
     }
@@ -58,12 +63,24 @@
         height: 200px;
     }
 
+    .container-proyectos-components {
+        margin-left: 40px;
+    }
+
+    /*           footer */
+
 }
 
 
 @media (max-width: 1366px) {
 
     /* home hero */
+
+    #HeroSectionContainer {
+        width: 80vw;
+        justify-content: space-around;
+    }
+
     header {
         padding: 5px 0px 0px 10px;
     }
@@ -492,39 +509,6 @@
 
 
     /*           footer */
-    .footer a img {
-        width: 25px;
-    }
-
-    .footer {
-        padding: 0px 30px;
-    }
-
-    .footer h2 {
-        font-size: 30px;
-        margin-bottom: 70px;
-        margin-top: 70px;
-    }
-
-    .footer button {
-        padding: 15px 25px;
-        border-radius: 38px;
-        font-size: 22px;
-        left: 37%;
-    }
-
-    .footer-info {
-        margin-bottom: 20px;
-        margin-top: 30px;
-    }
-
-    .titulo-info {
-        font-size: 17px;
-    }
-
-    .text-info {
-        font-size: 14px;
-    }
 
     /*          proyectos */
 
@@ -613,6 +597,7 @@
         width: 230px;
         padding: 25px 50px 70px 50px;
         border: 3px solid #5E51B3;
+        padding-bottom: 80px;
     }
 
     .TitleForm {
@@ -661,12 +646,16 @@
         width: 40%;
     }
 
+    .container-proyectos-components {
+        margin-left: 50px;
+    }
 }
 
 @media (max-width: 1280px) {
     .linea-medio {
         height: 1030px;
     }
+
 }
 
 

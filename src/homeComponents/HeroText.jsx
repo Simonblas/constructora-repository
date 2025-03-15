@@ -14,11 +14,9 @@ export const HeroText = () => {
   return (
     <div id='HeroTextContainer'>
       <h3 className='HeroTitle'><span className='spanBold'>Construir</span> con vos es nuestra mayor satisfacción.</h3>
-      <p className='HeroText'>Somos Constructora Scalcini, una empresa que construye más que estructuras: creamos soluciones duraderas adaptadas a las necesidades de nuestros clientes. <br />
+      <p className='HeroText'>En Constructora Scalcini, no solo levantamos estructuras, sino que damos vida a proyectos diseñados para durar. Con una visión enfocada en la calidad y la eficiencia, creamos espacios funcionales que responden a las necesidades de cada cliente.<br />
         <br />
-        Cada miembro de Scalcini aporta dedicación y experiencia. <br />
-        <br />
-        Desde los cimientos hasta los detalles finales, nuestro compromiso es entregar proyectos que combinen calidad y funcionalidad</p>
+        Desde la planificación hasta la entrega final, nuestro compromiso es claro; hacer que cada obra sea un reflejo de confianza, solidez y excelencia.</p>
       <button className='btn-home' onClick={scrollToElement}>
         <p>¡Nuestros Tips!</p>
         <img src={flechaabajohome} alt="" />

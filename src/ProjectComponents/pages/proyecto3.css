@@ -172,3 +172,129 @@
     object-fit: cover;
     border-radius: 20px;
 }
+
+@media (max-width: 1605px) {
+    .container-proyecto3 h2 {
+        font-size: 40px;
+        padding: 60px 0px;
+    }
+
+    .container-proyecto3 h4 {
+        font-size: 26px;
+        margin: 0px;
+    }
+
+    .container-1-proyecto3 img {
+        width: 530px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .container-text-1-proyecto3 p {
+        font-size: 20px;
+    }
+
+    .container-fotos-proyecto3 {
+        grid-template-columns: 250px 250px;
+        grid-template-rows: 240px 50px 240px;
+        column-gap: 70px;
+    }
+
+    .container-fotos-proyecto3 img {
+        width: 250px;
+        height: 240px;
+    }
+
+    .container-fotos-proyecto3 p {
+        font-size: 18px;
+    }
+
+    .container-text2-proyecto3 {
+        width: 530px;
+    }
+
+    .container-text2-proyecto3 p {
+        font-size: 20px;
+        padding-bottom: 30px;
+    }
+
+    .container-text2-proyecto3 .li-arriba {
+        margin-top: 24px;
+    }
+
+    .container-text2-proyecto3 li {
+        font-size: 20px;
+    }
+
+    .container-text3-proyecto3 li {
+        font-size: 20px;
+    }
+
+    .container-3-proyecto3 img {
+        width: 530px;
+        height: 350px;
+    }
+
+}
+
+@media (max-width: 1366px) {
+    .container-proyecto3 h2 {
+        font-size: 30px;
+        padding: 40px 0px;
+    }
+
+    .container-proyecto3 h4 {
+        font-size: 22px;
+    }
+
+    .container-1-proyecto3 img {
+        width: 430px;
+        height: 280px;
+    }
+
+    .container-text-1-proyecto3 p {
+        font-size: 16px;
+    }
+
+    .container-fotos-proyecto3 {
+        grid-template-columns: 210px 210px;
+        grid-template-rows: 200px 40px 200px;
+        column-gap: 60px;
+    }
+
+    .container-fotos-proyecto3 img {
+        width: 210px;
+        height: 200px;
+    }
+
+    .container-fotos-proyecto3 p {
+        font-size: 14px;
+    }
+
+    .container-text2-proyecto3 {
+        width: 430px;
+    }
+
+    .container-text2-proyecto3 p {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .container-text2-proyecto3 .li-arriba {
+        margin-top: 20px;
+    }
+
+    .container-text2-proyecto3 li {
+        font-size: 16px;
+    }
+
+    .container-text3-proyecto3 li {
+        font-size: 16px;
+    }
+
+    .container-3-proyecto3 img {
+        width: 430px;
+        height: 280px;
+    }
+}

@@ -8,18 +8,17 @@ export const Footer = () => {
     return (
         <footer className="footer">
             <h2>¿Tenés dudas o querés saber más?</h2>
-            <div id='container-footer-info'>
-                <div className="footer-info">
-                    <p className='titulo-info'>Scalcini Construcciones</p>
-                    <p className='text-info' >2281-584936</p>
-                    <p className='text-info'>Azul</p>
-                    <p className='text-info'>Buenos Aires</p>
-                    <p className='text-info'>Argentina</p>
-                </div>
-                <a href="https://wa.link/sq5tiv" target='_blank'>
-                    <button > Necesito asesoramiento<img src={flechaderechapalo} />
-                    </button>
-                </a>
+            <a href="https://wa.link/sq5tiv" target='_blank'>
+                <button > Necesito asesoramiento<img src={flechaderechapalo} />
+                </button>
+            </a>
+            <div className='footer-info'>
+                <h5>Scalcini Construcciones</h5>
+                <p >
+                    2281-584936 <br />
+                    Azul <br />
+                    Buenos Aires <br />
+                    Argentina</p>
             </div>
         </footer >
     );

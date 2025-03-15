@@ -48,7 +48,7 @@ export const Proyecto3 = () => {
             dentro del frigorífico, optimizando la distribución del espacio y mejorando
             su funcionalidad.</p>
 
-          <h4 className='spanBold'>Intervenciones realizadas :</h4>
+          <h4 className='spanBold'>Intervenciones realizadas:</h4>
           <ul>
             <li className='li-arriba'>Colocación de piso vinílico sistema CLICK, proporcionando un acabado moderno,
               resistente y de fácil mantenimiento.</li>
@@ -66,7 +66,7 @@ export const Proyecto3 = () => {
 
       <div className='container-3-proyecto3'>
         <div className='container-text3-proyecto3'>
-          <h4 className='spanBold'>Tareas realizadas :</h4>
+          <h4 className='spanBold'>Tareas realizadas:</h4>
           <ul>
             <li>Cambio de cielorraso desmontable, mejorando la iluminación y la acústica del espacio.</li>
             <li>Pintura integral, renovando el aspecto general de las oficinas y otorgando una mayor sensación de amplitud y modernidad.</li>

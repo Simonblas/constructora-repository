@@ -35,7 +35,7 @@ export const Proyecto2 = () => {
 
         <div className='container-text-2-proyecto-2'>
 
-          <h3 className='spanBold'>Replanteo con Estación Total Trimble M3 :</h3>
+          <h3 className='spanBold'>Replanteo con Estación Total Trimble M3:</h3>
           <p className='texto2-proyecto2'>Para garantizar la precisión en la ejecución de la nave
             industrial, se utilizó la estación total Trimble M3, una
             tecnología avanzada que permite realizar mediciones
@@ -50,7 +50,7 @@ export const Proyecto2 = () => {
 
         <div className='container-text-3-proyecto-2'>
 
-          <h4 className='spanBold'>Tareas realizadas :</h4>
+          <h4 className='spanBold'>Tareas realizadas:</h4>
 
           <ul>
 

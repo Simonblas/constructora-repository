@@ -39,7 +39,7 @@ export const Proyectos = () => {
 
             <HeroProjects />
 
-            <div className='container-proyectos-components'>
+            <div className='container-proyectos-components' >
 
                 <button className='boton-slider boton-slider-izquierda' id='boton-slider-proyecto-izquierda' onClick={goToPrev} ><img src={flechaizquierda} alt="" /></button>
                 <Slider className='slider slider-proyectos' ref={sliderRef} {...settings} >

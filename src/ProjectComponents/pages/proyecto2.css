@@ -121,7 +121,7 @@
     text-align: center;
 }
 
-.container-text-3-proyecto-2 ul {}
+/* .container-text-3-proyecto-2 ul {} */
 
 .container-text-3-proyecto-2 li {
     text-align: start;
@@ -141,4 +141,117 @@
     height: 508px;
     object-fit: cover;
     border-radius: 20px;
+}
+
+@media (max-width: 1605px) {
+    .container-proyecto2 h2 {
+        font-size: 40px;
+        padding: 60px 0px;
+    }
+
+    .container-1-proyecto-2 img {
+        width: 500px;
+        height: 420px;
+        border-radius: 20px;
+    }
+
+    .container-text-proyecto-2 h3 {
+        font-size: 30px;
+    }
+
+    .texto1-proyecto2 {
+        font-size: 20px;
+    }
+
+    .container-2-proyecto-2 img {
+        width: 821px;
+        height: 468px;
+    }
+
+    .container-text-2-proyecto-2 {
+        width: 500px;
+    }
+
+    .container-text-2-proyecto-2 h3 {
+        font-size: 24px;
+    }
+
+    .container-text-2-proyecto-2 p {
+        font-size: 20px;
+    }
+
+    .container-text-3-proyecto-2 {
+        width: 820px;
+    }
+
+    .container-text-3-proyecto-2 h4 {
+        font-weight: 600;
+        font-size: 24px;
+    }
+
+    .container-text-3-proyecto-2 li {
+        font-size: 19px;
+        padding-bottom: 30px;
+    }
+
+    .container-3-proyecto-2 img {
+        width: 500px;
+        height: 420px;
+    }
+
+}
+
+@media (max-width: 1366px) {
+    .container-proyecto2 h2 {
+        font-size: 30px;
+        padding: 40px 0px;
+    }
+
+    .container-1-proyecto-2 img {
+        width: 400px;
+        height: 320px;
+    }
+
+    .container-text-proyecto-2 h3 {
+        font-size: 22px;
+    }
+
+    .texto1-proyecto2 {
+        font-size: 16px;
+    }
+
+    .container-2-proyecto-2 img {
+        width: 721px;
+        height: 400px;
+    }
+
+    .container-text-2-proyecto-2 {
+        width: 400px;
+    }
+
+    .container-text-2-proyecto-2 h3 {
+        font-size: 20px;
+    }
+
+    .container-text-2-proyecto-2 p {
+        font-size: 16px;
+    }
+
+    .container-text-3-proyecto-2 {
+        width: 721px;
+    }
+
+    .container-text-3-proyecto-2 h4 {
+        font-size: 20px;
+    }
+
+    .container-text-3-proyecto-2 li {
+        font-size: 16px;
+        padding-bottom: 20px;
+    }
+
+    .container-3-proyecto-2 img {
+        width: 400px;
+        height: 320px;
+    }
 }

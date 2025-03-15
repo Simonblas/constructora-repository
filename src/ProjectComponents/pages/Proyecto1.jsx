@@ -38,7 +38,7 @@ export const Proyecto1 = () => {
 
         <div className='container-text-2-proyecto-1'>
 
-          <h4><span className='spanBold'>Tareas realizadas :</span></h4>
+          <h4><span className='spanBold'>Tareas realizadas:</span></h4>
 
           <ul>
             <li>Dirección y supervisión de obra, garantizando el cumplimiento de plazos y calidad.</li>

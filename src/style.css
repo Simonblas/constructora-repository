@@ -1418,7 +1418,7 @@ input[type="number"]::-webkit-outer-spin-button {
         /* Capa de color negro semi-transparente */
         url('./assets/milagro.jpeg');
     background-size: cover;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     flex-direction: column;
     text-align: center;
@@ -1513,15 +1513,22 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 /*                                                                                      Footer */
-#container-footer-info {
-    display: flex;
-    justify-content: left;
-    width: 100%;
+.footer {
+    background-color: #000000b2;
+    color: #ffffff;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 20px 0px;
 }
 
 .footer a {
     text-decoration: none;
-    /* Elimina el subrayado */
     color: inherit;
 }
 
@@ -1529,41 +1536,25 @@ input[type="number"]::-webkit-outer-spin-button {
     width: 30px;
 }
 
-.footer {
-    background-color: #000000b2;
-    color: #ffffff;
-    padding: 0px 80px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    text-align: center;
-}
-
 .footer h2 {
-    font-size: 40px;
     font-weight: 700;
+    font-size: 40px;
     margin-bottom: 50px;
     margin-top: 50px;
-    font-family: "Montserrat", serif;
 }
 
 .footer button {
+    display: flex;
     background-color: rgb(0, 174, 255);
     color: rgb(255, 255, 255);
-    padding: 20px 40px;
+    padding: 18px 60px;
     border: none;
     border-radius: 38px;
     font-size: 24px;
     font-weight: 600;
     cursor: pointer;
-    display: flex;
     align-items: center;
-    gap: 8px;
     transition: all .3s ease;
-    font-family: "Montserrat", serif;
-    position: absolute;
-    left: 40%;
 }
 
 .footer button:hover {
@@ -1572,26 +1563,19 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .footer-info {
-    text-align: left;
-    margin-bottom: 50px;
-    margin-top: 30px;
-    align-self: flex-start;
+    width: 90%;
+    text-align: start;
 }
 
-.titulo-info {
-    font-family: "Montserrat", serif;
-    font-weight: 500;
+.footer-info h5 {
     font-size: 20px;
+    font-weight: 500;
+    margin: 0px;
 }
 
 .footer-info p {
-    margin: 5px 0;
-}
-
-.text-info {
-    font-family: "Montserrat", serif;
-    font-weight: 400;
     font-size: 16px;
+    font-weight: 400;
 }
 
 /*                                                                          animacion boton wsp */

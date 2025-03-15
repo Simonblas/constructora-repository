@@ -4,15 +4,15 @@ import flechaderecha from "./assets/flechaderechahome.svg";
 
 const beneficios = [
     {
-        titulo: 'Personalización total :',
+        titulo: 'Personalización total:',
         info: 'Diseñamos cada proyecto desde cero, según tus necesidades específicas. Nada de medidas estándar que no se ajusten a vos.',
     },
     {
-        titulo: 'Durabilidad asegurada :',
+        titulo: 'Durabilidad asegurada:',
         info: 'Utilizamos materiales de alta calidad para garantizar estructuras resistentes al paso del tiempo y las condiciones climáticas.',
     },
     {
-        titulo: 'Atención personalizada :',
+        titulo: 'Atención personalizada:',
         info: 'Trabajamos codo a codo con vos para que obtengas exactamente lo que necesitas.',
     },
 ];
