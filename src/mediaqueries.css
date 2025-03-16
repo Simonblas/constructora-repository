@@ -593,11 +593,9 @@
 
     #containerForm {
         border-radius: 25px;
-        height: 350px;
         width: 230px;
-        padding: 25px 50px 70px 50px;
+        padding: auto 50px;
         border: 3px solid #5E51B3;
-        padding-bottom: 80px;
     }
 
     .TitleForm {
@@ -614,10 +612,11 @@
         margin-bottom: 10px;
         border-radius: 3px;
         font-size: 12px;
+        height: 30px;
     }
 
     textarea {
-        height: 18%;
+        height: 80px;
         border-radius: 3px;
         font-size: 12px;
     }
@@ -627,6 +626,12 @@
         font-size: 14px;
         border-radius: 6px;
         margin-top: 10px;
+    }
+
+    .error {
+        font-size: 10px;
+        padding-bottom: 10px;
+        font-weight: 500;
     }
 
     .container-redes {
