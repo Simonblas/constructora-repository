@@ -1,0 +1,41 @@
+@media (max-width: 768px) {
+  /*                                                                                      Footer */
+  .footer {
+    padding: 1px;
+  }
+
+  .footer a img {
+    width: 16px;
+    margin-left: 5px;
+  }
+
+  .footer h2 {
+    font-size: 16px;
+    margin: 30px 0px;
+  }
+
+  .footer button {
+    padding: 10px 40px;
+    border-radius: 28px;
+    font-size: 12px;
+    font-weight: 600;
+  }
+
+  .footer button:hover {
+  }
+
+  .footer-info {
+    width: 90%;
+    text-align: start;
+  }
+
+  .footer-info h5 {
+    display: none;
+  }
+
+  .footer-info p {
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 400;
+  }
+}

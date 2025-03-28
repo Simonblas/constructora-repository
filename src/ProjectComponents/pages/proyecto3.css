@@ -1,300 +1,292 @@
 .container-proyecto3 {
-    background:
-        linear-gradient(rgba(3, 23, 49, 0.9), rgba(3, 23, 49, 0.9)),
-        /* Capa de color negro semi-transparente */
-        url('../../assets/fondoproyecto1.jpeg');
-    background-size: cover;
-    background-position: bottom;
-    background-repeat: no-repeat;
+  background: linear-gradient(rgba(3, 23, 49, 0.9), rgba(3, 23, 49, 0.9)),
+    /* Capa de color negro semi-transparente */
+      url("../../assets/fondoproyecto1.jpeg");
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
 }
 
 .container-proyecto3 h2 {
-    font-family: "Montserrat";
-    font-optical-sizing: auto;
-    font-weight: 700;
-    font-style: normal;
-    font-size: 50px;
-    text-align: center;
-    margin: 0;
-    padding: 80px 0px;
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 50px;
+  text-align: center;
+  margin: 0;
+  padding: 80px 0px;
 }
 
 .container-proyecto3 h4 {
-    font-family: "Montserrat";
-    font-optical-sizing: auto;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 32px;
-    text-align: center;
-    margin: 0px 0px 0px 20px;
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 32px;
+  text-align: center;
+  margin: 0px 0px 0px 20px;
 }
 
 /* container 1 */
 .container-1-proyecto3 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .container-1-proyecto3 img {
-    width: 630px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 20px;
+  width: 630px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 .container-text-1-proyecto3 {
-    width: 40%;
+  width: 40%;
 }
 
-
 .container-text-1-proyecto3 p {
-    font-family: "Nunito Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100,
-        "YTLC" 500;
-    font-size: 26px;
-    text-align: start;
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+  font-size: 26px;
+  text-align: start;
 }
 
 /* container 2 */
 .container-2-proyecto3 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 20px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 20px 0px;
 }
 
 .container-fotos-proyecto3 {
-    display: grid;
-    grid-template-columns: 330px 330px;
-    grid-template-rows: 300px 60px 300px;
-    column-gap: 80px;
-    align-items: center;
-    align-content: center;
+  display: grid;
+  grid-template-columns: 330px 330px;
+  grid-template-rows: 300px 60px 300px;
+  column-gap: 80px;
+  align-items: center;
+  align-content: center;
 }
 
 .container-fotos-proyecto3 img {
-    width: 330px;
-    height: 300px;
-    border-radius: 10px;
-    object-fit: cover;
+  width: 330px;
+  height: 300px;
+  border-radius: 10px;
+  object-fit: cover;
 }
 
 .container-fotos-proyecto3 p {
-    font-family: "Montserrat";
-    font-optical-sizing: auto;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 20px;
-    text-align: center;
+  font-family: "Montserrat";
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 20px;
+  text-align: center;
 }
 
 .container-text2-proyecto3 {
-    width: 630px;
-    align-content: center;
+  width: 630px;
+  align-content: center;
 }
 
 .container-text2-proyecto3 p {
-    font-family: "Nunito Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100,
-        "YTLC" 500;
-    font-size: 24px;
-    text-align: center;
-    padding-bottom: 50px;
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 50px;
 }
 
 .container-text2-proyecto3 ul {
-    padding: 0px;
-    margin: 0;
+  padding: 0px;
+  margin: 0;
 }
 
 .container-text2-proyecto3 .li-arriba {
-    margin-top: 24px;
+  margin-top: 24px;
 }
 
 .container-text2-proyecto3 .li-medio {
-    padding: 20px 0px;
+  padding: 20px 0px;
 }
 
 .container-text2-proyecto3 li {
-    font-family: "Nunito Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100,
-        "YTLC" 500;
-    font-size: 24px;
-    text-align: center;
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+  font-size: 24px;
+  text-align: center;
 }
 
 /* container 3 */
 .container-3-proyecto3 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 0px 0px 100px 0px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0px 0px 100px 0px;
 }
 
 .container-text3-proyecto3 {
-    width: 40%;
+  width: 40%;
 }
 
 .container-text3-proyecto3 ul {
-    padding: 0;
-    margin: 24px 0px 0px 0px;
+  padding: 0;
+  margin: 24px 0px 0px 0px;
 }
 
 .container-text3-proyecto3 li {
-    font-family: "Nunito Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 300;
-    font-style: normal;
-    font-variation-settings:
-        "wdth" 100,
-        "YTLC" 500;
-    font-size: 24px;
-    text-align: center;
-    padding-bottom: 20px;
+  font-family: "Nunito Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings: "wdth" 100, "YTLC" 500;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 
 .container-3-proyecto3 img {
-    width: 630px;
-    height: 400px;
-    object-fit: cover;
-    border-radius: 20px;
+  width: 630px;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 20px;
 }
 
 @media (max-width: 1605px) {
-    .container-proyecto3 h2 {
-        font-size: 40px;
-        padding: 60px 0px;
-    }
+  .container-proyecto3 h2 {
+    font-size: 40px;
+    padding: 60px 0px;
+  }
 
-    .container-proyecto3 h4 {
-        font-size: 26px;
-        margin: 0px;
-    }
+  .container-proyecto3 h4 {
+    font-size: 26px;
+    margin: 0px;
+  }
 
-    .container-1-proyecto3 img {
-        width: 530px;
-        height: 350px;
-        object-fit: cover;
-        border-radius: 20px;
-    }
+  .container-1-proyecto3 img {
+    width: 530px;
+    height: 350px;
+    object-fit: cover;
+    border-radius: 20px;
+  }
 
-    .container-text-1-proyecto3 p {
-        font-size: 20px;
-    }
+  .container-text-1-proyecto3 p {
+    font-size: 20px;
+  }
 
-    .container-fotos-proyecto3 {
-        grid-template-columns: 250px 250px;
-        grid-template-rows: 240px 50px 240px;
-        column-gap: 70px;
-    }
+  .container-fotos-proyecto3 {
+    grid-template-columns: 250px 250px;
+    grid-template-rows: 240px 50px 240px;
+    column-gap: 70px;
+  }
 
-    .container-fotos-proyecto3 img {
-        width: 250px;
-        height: 240px;
-    }
+  .container-fotos-proyecto3 img {
+    width: 250px;
+    height: 240px;
+  }
 
-    .container-fotos-proyecto3 p {
-        font-size: 18px;
-    }
+  .container-fotos-proyecto3 p {
+    font-size: 18px;
+  }
 
-    .container-text2-proyecto3 {
-        width: 530px;
-    }
+  .container-text2-proyecto3 {
+    width: 530px;
+  }
 
-    .container-text2-proyecto3 p {
-        font-size: 20px;
-        padding-bottom: 30px;
-    }
+  .container-text2-proyecto3 p {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
 
-    .container-text2-proyecto3 .li-arriba {
-        margin-top: 24px;
-    }
+  .container-text2-proyecto3 .li-arriba {
+    margin-top: 24px;
+  }
 
-    .container-text2-proyecto3 li {
-        font-size: 20px;
-    }
+  .container-text2-proyecto3 li {
+    font-size: 20px;
+  }
 
-    .container-text3-proyecto3 li {
-        font-size: 20px;
-    }
+  .container-text3-proyecto3 li {
+    font-size: 20px;
+  }
 
-    .container-3-proyecto3 img {
-        width: 530px;
-        height: 350px;
-    }
-
+  .container-3-proyecto3 img {
+    width: 530px;
+    height: 350px;
+  }
 }
 
 @media (max-width: 1366px) {
-    .container-proyecto3 h2 {
-        font-size: 30px;
-        padding: 40px 0px;
-    }
+  .container-proyecto3 h2 {
+    font-size: 30px;
+    padding: 40px 0px;
+  }
 
-    .container-proyecto3 h4 {
-        font-size: 22px;
-    }
+  .container-proyecto3 h4 {
+    font-size: 22px;
+  }
 
-    .container-1-proyecto3 img {
-        width: 430px;
-        height: 280px;
-    }
+  .container-1-proyecto3 img {
+    width: 430px;
+    height: 280px;
+  }
 
-    .container-text-1-proyecto3 p {
-        font-size: 16px;
-    }
+  .container-text-1-proyecto3 p {
+    font-size: 16px;
+  }
 
-    .container-fotos-proyecto3 {
-        grid-template-columns: 210px 210px;
-        grid-template-rows: 200px 40px 200px;
-        column-gap: 60px;
-    }
+  .container-fotos-proyecto3 {
+    grid-template-columns: 210px 210px;
+    grid-template-rows: 200px 40px 200px;
+    column-gap: 60px;
+  }
 
-    .container-fotos-proyecto3 img {
-        width: 210px;
-        height: 200px;
-    }
+  .container-fotos-proyecto3 img {
+    width: 210px;
+    height: 200px;
+  }
 
-    .container-fotos-proyecto3 p {
-        font-size: 14px;
-    }
+  .container-fotos-proyecto3 p {
+    font-size: 14px;
+  }
 
-    .container-text2-proyecto3 {
-        width: 430px;
-    }
+  .container-text2-proyecto3 {
+    width: 430px;
+  }
 
-    .container-text2-proyecto3 p {
-        font-size: 16px;
-        padding-bottom: 20px;
-    }
+  .container-text2-proyecto3 p {
+    font-size: 16px;
+    padding-bottom: 20px;
+  }
 
-    .container-text2-proyecto3 .li-arriba {
-        margin-top: 20px;
-    }
+  .container-text2-proyecto3 .li-arriba {
+    margin-top: 20px;
+  }
 
-    .container-text2-proyecto3 li {
-        font-size: 16px;
-    }
+  .container-text2-proyecto3 li {
+    font-size: 16px;
+  }
 
-    .container-text3-proyecto3 li {
-        font-size: 16px;
-    }
+  .container-text3-proyecto3 li {
+    font-size: 16px;
+  }
 
-    .container-3-proyecto3 img {
-        width: 430px;
-        height: 280px;
-    }
+  .container-3-proyecto3 img {
+    width: 430px;
+    height: 280px;
+  }
+}
+
+@media (max-width: 768px) {
 }

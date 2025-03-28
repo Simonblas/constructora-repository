@@ -4,7 +4,6 @@ import checkvioleta from '../assets/checkvioleta.png';
 export const InfoBeneficios = ({ titulo, info }) => {
     return (
         <div className='container-info-beneficios'>
-            <div className='img-info-beneficio'></div>
             <img src={checkvioleta} alt="" />
             <h3 className='titulo-info-beneficios'>{titulo}</h3>
             <div className='container-texto-beneficios'>

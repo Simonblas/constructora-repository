@@ -1,7 +1,3 @@
-import React from 'react'
-
 export const HeroPickProyectos = () => {
-    return (
-        <div className='HeroPickProjects'></div>
-    )
-}
+  return <div className="HeroPickProjects"></div>;
+};
