@@ -1431,7 +1431,7 @@
     justify-content: space-evenly;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding-top: 30px;
+    padding: 30px 10px 0px 10px;
     height: auto;
   }
 
@@ -1622,10 +1622,6 @@
 
   iframe {
     border-radius: 30px;
-    transform: scale(0.8);
-    transform-origin: top left;
-    width: 125%;
-    height: 125%;
   }
 
   /* Formulario */
