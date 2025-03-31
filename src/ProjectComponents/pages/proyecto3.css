@@ -289,4 +289,129 @@
 }
 
 @media (max-width: 768px) {
+  .container-1-proyecto3 img {
+    display: none;
+  }
+  .container-3-proyecto3 img {
+    display: none;
+  }
+
+  .container-proyecto3 {
+    justify-items: center;
+    padding-bottom: 50px;
+  }
+  .container-proyecto3 h2 {
+    font-weight: 700;
+    font-size: 24px;
+    padding: 40px 0px;
+    width: 40%;
+  }
+
+  .container-proyecto3 h4 {
+    font-weight: 600;
+    font-size: 16px;
+    margin: 0px;
+  }
+
+  /* container 1 mobile */
+  .container-1-proyecto3 {
+    justify-content: center;
+    width: 80%;
+  }
+
+  .container-text-1-proyecto3 {
+    width: 100%;
+  }
+
+  .container-text-1-proyecto3 p {
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  /* container 2 mobile */
+  .container-2-proyecto3 {
+    display: block;
+    justify-items: center;
+    padding: 20px 0px;
+    width: 80%;
+  }
+
+  .container-fotos-proyecto3 {
+    display: grid;
+    grid-template-columns: 114px 114px;
+    grid-template-rows: 108px 20px 108px;
+    column-gap: 30px;
+    align-items: center;
+    align-content: center;
+    margin-bottom: 20px;
+  }
+
+  .container-fotos-proyecto3 img {
+    width: 114px;
+    height: 108px;
+    border-radius: 10px;
+    object-fit: cover;
+  }
+
+  .container-fotos-proyecto3 p {
+    font-weight: 400;
+    font-size: 10px;
+  }
+
+  .container-text2-proyecto3 {
+    width: 100%;
+    justify-items: center;
+  }
+  .container-text2-proyecto3 h4 {
+    font-size: 16px;
+  }
+
+  .container-text2-proyecto3 p {
+    font-weight: 400;
+    font-size: 10px;
+    text-align: start;
+    padding-bottom: 10px;
+  }
+
+  .container-text2-proyecto3 ul {
+    padding: 0px;
+    margin: 0;
+  }
+
+  .container-text2-proyecto3 .li-arriba {
+    margin-top: 10px;
+  }
+
+  .container-text2-proyecto3 .li-medio {
+    padding: 10px 0px;
+  }
+
+  .container-text2-proyecto3 li {
+    font-weight: 400;
+    font-size: 10px;
+    text-align: start;
+  }
+
+  /* container 3 */
+  .container-3-proyecto3 {
+    justify-content: center;
+    padding: 0px 0px 20px 0px;
+    width: 80%;
+  }
+
+  .container-text3-proyecto3 {
+    width: 100%;
+  }
+
+  .container-text3-proyecto3 ul {
+    padding: 0;
+    margin: 10px 0px 0px 0px;
+  }
+
+  .container-text3-proyecto3 li {
+    font-weight: 400;
+    font-size: 10px;
+    text-align: start;
+    padding-bottom: 10px;
+  }
 }

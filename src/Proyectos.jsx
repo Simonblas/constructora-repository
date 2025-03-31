@@ -12,7 +12,7 @@ export const Proyectos = () => {
   const settings = {
     dots: true, // Muestra los puntos de navegación
     infinite: true, // Carrusel infinito
-    speed: 500, // Velocidad de transición
+    speed: 300, // Velocidad de transición
     slidesToShow: 1, // Número de slides visibles
     slidesToScroll: 1, // Número de slides a mover
     arrows: false,
@@ -25,11 +25,6 @@ export const Proyectos = () => {
 
   return (
     <div className="container-proyectos">
-      {/* <Link to='proyecto1' className='link-card'>
-                <img className='imgProjectCard' src="./src/assets/fondoproyecto.jpeg" alt="" />
-                <h4 className='titulo-proyecto'>Titulo Proyecto</h4>
-            </Link> */}
-
       <HeroProjects />
 
       <div className="container-proyectos-components">

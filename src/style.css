@@ -1591,3 +1591,9 @@ input[type="number"]::-webkit-outer-spin-button {
 .img-como-hacemos-mobile {
   display: none;
 }
+.boton-back-mobile {
+  display: none;
+}
+.container-slider-proyecto-interno {
+  display: none;
+}
