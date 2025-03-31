@@ -23,8 +23,8 @@ export const Formulario = () => {
 
   const sendEmail = () => {
     emailjs
-      .sendForm("service_ipirzwh", "template_nt7xxhe", form.current, {
-        publicKey: "9thh4YyZG1-19ZwCm",
+      .sendForm("API_KEY1", "API_KEY2", form.current, {
+        publicKey: "API_KEY3",
       })
       .then(
         (result) => {
