@@ -16,7 +16,7 @@ export const Footer = () => {
       <div className="footer-info">
         <h5>Scalcini Construcciones</h5>
         <p>
-          2281-584936 <br />
+          111-123123 <br />
           Azul <br />
           Buenos Aires <br />
           Argentina
