@@ -6,7 +6,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <h2>¿Tenés dudas o querés saber más?</h2>
-      <a href="https://wa.link/sq5tiv" target="_blank">
+      <a href="https://wa.link/wsplink" target="_blank">
         <button>
           {" "}
           Necesito asesoramiento
