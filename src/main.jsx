@@ -11,7 +11,7 @@ createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <ScrollToTop />
       <Navegacion />
-      <a href="https://wa.link/sq5tiv" target="_blank" id="whatsappBoton">
+      <a href="https://wa.link/wsplink" target="_blank" id="whatsappBoton">
         <img src={logowhatsapp} alt="" />
       </a>
       <Footer />
