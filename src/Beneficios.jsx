@@ -32,7 +32,7 @@ export const Beneficios = () => {
 
       {/* Botón con enlace */}
       <a
-        href="https://wa.link/sq5tiv"
+        href="https://wa.link/wsplink"
         target="_blank"
         rel="noopener noreferrer"
       >
